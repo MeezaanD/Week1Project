@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:link {
+    background-color: var(--gray);
+    color: var(--primaryColor);
+}
+a:visited {
+    color: var(--alternativeColor);
+    border-radius: 5px;
+}
+a:hover {
+    font-size: 18px;
+    color: var(--secondaryColor);
+    background-color: blue;
+}
+a:active {
+    color: var(--primaryColor);
+    background-color: var(--activeLink);
+}
+/* header, main, footer */
+header, main, footer {
+    min-width: 100%;
+}
+/* Header */
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color:white;
+}
+
+header, .menu-list {
+    display: inline-flex;
+    list-style: none;
+    color: red;
+    padding: 0;
+}
+.menu-list li a {
+    margin-right: 90px;
+    text-decoration: none;
+    font-size: large;
+
+}
+.menu {
+    margin-left: auto;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+.logo {
+    width: 10em;
+    height: 5em;
+}
